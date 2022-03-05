@@ -65,7 +65,6 @@ h3 {
 .header__burger {
     width: 30px;
     height: 22px;
-    position: relative;
     display: none;
     align-items: center;
     margin-right: 18px;
@@ -135,6 +134,27 @@ h3 {
     object-fit: cover;
 }
 
+@media (max-width: 480px) {
+    .about__container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__avatar {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about__info {
+        padding: 0 24px;
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+}
+
 .recent-posts {
     background-color: #EDF7FA;
     padding: 27px 0px 32px;
@@ -167,22 +187,27 @@ h3 {
 .separator {
     margin: 0px 26px;
 }
-.button {
-    background-color: #ff6464;
-    border-radius: 2px;
-    font-weight: 500;
-    font-size: 20px;
-    color: #fff;
-    line-height: 145%;
-    height: 47px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 20px;}
+
+@media (max-width: 480px) {
+    .recent-posts__top {
+        justify-content: center;
+    }
+
+    .recent-posts__link {
+        display: none;
+    }
+
+    .recent-posts__articles {
+        flex-direction: column;
+    }
+
+    .recent-posts__article {
+        width: 100%;
+        margin-right: 0;
+        padding: 12px 22px 20px;
+        margin-bottom: 17px;
+    }
+    .recent-posts-container{
+padding: 0 10px;
+    }
+}
