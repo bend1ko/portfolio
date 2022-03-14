@@ -54,15 +54,17 @@ h3 {
     display: flex;
     justify-content: flex-end;
 }
+.nav__item{
+    padding-right: 10px;
+}
 
 .nav__list {
     display: flex;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-}
-
-.header__burger {
+    font-size: 20px; }
+ 
+    .header__burger {
     width: 30px;
     height: 22px;
     display: none;
@@ -250,6 +252,7 @@ h3 {
     justify-content: center;
 }
 
+
 @media (max-width: 480px) {
     .featured__works {
         display: flex;
@@ -262,7 +265,7 @@ h3 {
         flex: 0 0 100%;
     }
 }
-.btn {
+.button {
     background-color: #ff6464;
     border-radius: 2px;
     font-weight: 500;
@@ -273,15 +276,13 @@ h3 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
     padding: 0 20px;
-    -webkit-transition: background-color .3s ease 0s;
-    -o-transition: background-color .3s ease 0s;
-    transition: background-color .3s ease 0s;
+   
+}
+.work__info-title{
+padding-right: 5px;
+
+}
+.work__info{
+    margin-left: 11px;
 }
