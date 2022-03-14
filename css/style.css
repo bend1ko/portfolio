@@ -262,3 +262,26 @@ h3 {
         flex: 0 0 100%;
     }
 }
+.btn {
+    background-color: #ff6464;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    line-height: 145%;
+    height: 47px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    -webkit-transition: background-color .3s ease 0s;
+    -o-transition: background-color .3s ease 0s;
+    transition: background-color .3s ease 0s;
+}
